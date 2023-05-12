@@ -1,5 +1,7 @@
 # TwitterGPT
-![Logo](https://github.com/Joseph-M-Cook/TwitterGPT/blob/87265eda9bfc12b37b0e886a2efcf0bec89855fc/TwitterGPT_Logo.png)
+<div align="center">
+   <img src="https://github.com/Joseph-M-Cook/TwitterGPT/blob/87265eda9bfc12b37b0e886a2efcf0bec89855fc/TwitterGPT_Logo.png" width="540" height="540">
+</div>
 
 ## Overview
 TwitterGPT uses OpenAI's GPT-4 model to generate context-aware search queries based on user input. It then fetches corresponding tweets using Twitter's Search API and summarizes the results, providing insightful answers to user queries.
