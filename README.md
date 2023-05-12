@@ -1,5 +1,5 @@
 # TwitterGPT
-![Ex. 1](https://github.com/Joseph-M-Cook/AIMoneyMan/blob/469460ca05176c035dc30081bff44213d0119229/Demo1.jpg)
+![Logo](https://github.com/Joseph-M-Cook/TwitterGPT/blob/87265eda9bfc12b37b0e886a2efcf0bec89855fc/TwitterGPT_Logo.png)
 TwitterGPT is an AI-powered tool that leverages the power of GPT-4 and Twitter's Search API to answer user questions using real-time Twitter insights, all presented through an interactive Gradio interface.
 
 ## Overview
