@@ -8,17 +8,32 @@ TwitterGPT uses OpenAI's GPT-4 model to generate context-aware search queries ba
 ## Installation
 To run this project, you need to install the required Python libraries. You can do this by running:
 
+1. Clone the repository:
+
 ```bash
+git clone https://github.com/Joseph-M-Cook/TwitterGPT.git
+```
+2. Install the required dependencies:
+
+```bash 
 pip install -r requirements.txt
 ```
+3. Set up API keys and private IDs. You need to provide your own API keys for both Twitter and OpenAI.
+  - `consumer_key`
+  - `consumer_secret`
+  - `access_token`
+  - `access_token_secret`
+  - `openai.api_key'
+
+4. run the script and open the Gradio interface in your browser
 
 ## Configuration
-You need to provide your own API keys for both Twitter and OpenAI. This can be done by replacing the placeholders in the `consumer_key`, `consumer_secret`, `access_token`, `access_token_secret`, and `openai.api_key` variables.
 
-## Usage
-To use TwitterGPT, run the script and open the Gradio interface in your browser. Enter your question into the textbox and press enter. The program will generate a context-aware search query, fetch the corresponding tweets, and provide a summarized answer based on the fetched tweets.
+
 
 ## Disclaimer
 Please use this responsibly and ensure you comply with both OpenAI's and Twitter's terms of service.
 
+## License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
