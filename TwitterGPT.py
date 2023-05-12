@@ -9,8 +9,10 @@ consumer_key = ""
 consumer_secret = ""
 access_token = ""
 access_token_secret = ""
-openai.api_key = ""
+gpt_api_key = ""
+
 search_url = "https://api.twitter.com/2/tweets/search/recent"
+openai.api_key = gpt_api_key
 
 
 # Function to get search query
@@ -29,9 +31,8 @@ def get_search_query(query):
     
     messages.append({"role": "user", "content": 
                     "Based on my previous messages, what is the most relevant Twitter search query for the text below?\n\n"
-                     f"Text: {query}\n\nQuery:"})
-    
-
+                     f"Text: {query}\n\nQuery:"}
+                    
     search_query = openai.ChatCompletion.create(
         model="gpt-4",
         messages=messages,
